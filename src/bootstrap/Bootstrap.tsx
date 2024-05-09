@@ -12,7 +12,7 @@ interface Props {
   [index: number]: string | number | Date | undefined;
 }
 
-export default ({}: Props) => {
+export default () => {
   const [show, setShow] = React.useState(false);
 
   const handleClose = () => setShow(false);

@@ -23,7 +23,7 @@ interface Props {
   [index: number]: string | number | Date | undefined;
 }
 
-export default ({}: Props) => {
+export default () => {
   // const [count, setCount] = React.useState<number>(0);
 
   const [number, setNumber] = React.useState<number>(expensiveCalculation);

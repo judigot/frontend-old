@@ -25,7 +25,7 @@ interface Datatype {
   [key: string]: number | string | object[] | Date;
 }
 
-export default ({}: Props) => {
+export default () => {
   // const [count, setCount] = React.useState<number>(0);
 
   const [data, setInitialData] = React.useState<Datatype[]>();

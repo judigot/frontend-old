@@ -1,6 +1,6 @@
 interface Props extends NumberField {}
 
-const Number = ({}: Props) => {
+const Number = () => {
   return (
     <div>
       <span>{props.title}</span>

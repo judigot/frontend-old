@@ -14,7 +14,7 @@ interface Props {
   [index: number]: string | number | Date | undefined;
 }
 
-export const ParentComponent = ({}: Props) => {
+export const ParentComponent = () => {
   const initialCount = 0;
 
   const [count, setCount] = React.useState(initialCount);

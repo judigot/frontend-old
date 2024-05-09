@@ -8,7 +8,7 @@ interface Props {
   [index: number]: string | number | Date | undefined;
 }
 
-export default ({}: Props) => {
+export default () => {
   const childRef = React.useRef<{ [key: string]: Function }>();
   return (
     <>

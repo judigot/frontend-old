@@ -17,7 +17,7 @@ function myFunc() {
   return a + b;
 }
 
-export default ({}: Props) => {
+export default () => {
   return (
     <>
       <div className="relative">

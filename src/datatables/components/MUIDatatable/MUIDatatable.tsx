@@ -25,7 +25,7 @@ interface Props {
   data: Object[];
 }
 
-export default ({}: Props) => {
+export default () => {
   const [responsive, setResponsive] = React.useState("vertical");
   const [tableBodyHeight, setTableBodyHeight] = React.useState("100%");
   const [tableBodyMaxHeight, setTableBodyMaxHeight] =

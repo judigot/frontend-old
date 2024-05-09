@@ -14,7 +14,7 @@ interface Props {
   [index: number]: string | number | Date | undefined;
 }
 
-export default ({}: Props) => {
+export default () => {
   React.useEffect(() => {}, []);
 
   React.useEffect(() => {

@@ -20,7 +20,7 @@ interface Props {
   [index: number]: string | number | Date | undefined;
 }
 
-export default ({}: Props) => {
+export default () => {
   const [message, setMessage] = React.useState<string>(``);
 
   const searchRef = React.useRef<HTMLInputElement>(null!);

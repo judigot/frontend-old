@@ -12,7 +12,7 @@ interface Props {
   [index: number]: string | number | Date | undefined;
 }
 
-const App = ({}: Props) => {
+const App = () => {
   return (
     <Provider store={store}>
       {/* <Navbar /> */}

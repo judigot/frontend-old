@@ -10,7 +10,7 @@ interface Props {
   [index: number]: string | number | Date | undefined;
 }
 
-export default ({}: Props) => {
+export default () => {
   const [data, setData] = React.useState<string>();
 
   React.useEffect(() => {
