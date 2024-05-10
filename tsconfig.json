@@ -27,6 +27,6 @@
     },
     //==========CUSTOM==========//
   },
-  "include": ["src"],
+  "include": ["src", "src/.done/movies-improved", "src/.done/movies"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
